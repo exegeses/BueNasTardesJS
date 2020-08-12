@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar Texto en el HTML</title>
+</head>
+<body>
+    <h1>Cambiar Texto en el HTML</h1>
+    <nav>
+        <button onclick="document.getElementById('parrafo').innerText = 'Ahora usamos getElementById()'">Español</button>
+        <button onclick="document.getElementById('parrafo').innerText = 'Now we use getElementById()'">English</button>
+        <button onclick="document.getElementById('parrafo').innerText = 'Jetzt benutzen wir getElementById()'">Deustche</button>
+    </nav>
+
+    <p id="parrafo">
+        texto inicial
+    </p>
+
+    <script>
+        document.getElementById('parrafo').innerText = 'Ahora usamos getElementById()'
+    </script>
+</body>
+</html>
