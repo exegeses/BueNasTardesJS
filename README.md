@@ -28,3 +28,9 @@
   c. Brackets http://brackets.io/   
   d. Atom https://atom.io/     
   
+## 4. Ejecutar Javascript  
+  a. Se puede escribir código javascript como script de terminal. O sea que escribo comandos que se pueden ejecutar en terminal de sistema  
+  b. Se puede ejecutar javascript en al consola del browser.  
+  c. Se puede insertar dentro del elemento "<script>"    
+  d. También se puede generar código javascript en línea (inline). Esto es como varlor de un atributo controlador de eventos de HTML
+ 
