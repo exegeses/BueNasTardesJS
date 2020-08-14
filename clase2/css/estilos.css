@@ -2,4 +2,9 @@ body{
     background-color: #f3e9d9;
     color: #352001;
     font-family: helvetica;
+    font-size: 1em;
+}
+h1{
+    border-left: 12px solid #efcb8f;
+    padding-left: 12px;
 }
