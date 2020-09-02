@@ -9,8 +9,17 @@
                 ];
 
     // crear a función para rotar imagenes
+    function rotarImagenes()
+    {
+        //obtener un número aleatorio entre 0 y 8
+        // el número debe ser entero
+        var numero = Math.round( Math.random() * 8 );
+            console.log(numero);
 
-    //obtener un número aleatorio entre 0 y 8
-    // el número debe ser entero
+        //mostrar una imagen dentro del figure
+        foto.innerHTML = '<img src="imagenes/'+fotos[numero]+'">';
+    }
+
+    rotarImagenes()
 
     //con un botón mostrar imagen al azar
