@@ -18,3 +18,9 @@ button{
     background-color: #ccc;
     margin-top: 20px;
 }
+
+.resaltado{
+    display: block;
+    width: 200px;
+    border-bottom: #f1985e 2px solid;
+}
